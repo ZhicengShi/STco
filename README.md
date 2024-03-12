@@ -14,9 +14,6 @@ Required package:
 
 # STco pipeline
 
-See [tutorial.ipynb](tutorial.ipynb)
-
-
 NOTE: Run the following command if you want to run the script tutorial.ipynb
  
 1.  Please run the script `download.sh` in the folder [data](https://github.com/DDD1122/STco/tree/main/data) 
