@@ -5,7 +5,7 @@
 
       
 
-![(Variational) gcn](Workflow.png)
+![(Variational)](Workflow.png)
 
 
 
