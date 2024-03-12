@@ -18,7 +18,7 @@ Required package:
 
 
 
-# Hist2ST pipeline
+# STco pipeline
 
 See [tutorial.ipynb](tutorial.ipynb)
 
