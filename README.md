@@ -17,10 +17,10 @@ Required package:
  -  human cutaneous squamous cell carcinoma 10x Visium data (GSE144240).
 
 ## STco pipeline
-- 1. Please run the script download.sh in the folder data;
-- 2. Run the command line git clone https:/github.com/almaan/her2st.git in the dir data;
-- 3. Run train.py
-  4. Run pred.py
+1. Please run the script download.sh in the folder data;
+2. Run the command line git clone https:/github.com/almaan/her2st.git in the dir data;
+3. Run train.py
+4. Run prediction.py
 
 
 
