@@ -17,9 +17,9 @@ Required package:
  -  human cutaneous squamous cell carcinoma 10x Visium data (GSE144240).
 
 ## STco pipeline
-1. Please run the script download.sh in the folder data;
-2. Run "train.py"
-3. Run "predict.py"
+- Please run the script download.sh in the folder data;
+- Run "train.py"
+- Run "predict.py"
 
 
 
