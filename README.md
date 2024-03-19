@@ -2,7 +2,7 @@
 ### Zhiceng Shi, Changmiao Wang, Wen Wen Min*
 
 
-![(Variational)](Workflow.png)
+![(Variational)](WorkFlow.png)
 
 ## System environment
 Required package:
