@@ -18,8 +18,8 @@ Required package:
 
 ## STco pipeline
 1. Please run the script download.sh in the folder data;
-2. Run 'train.py'
-3. Run 'predict.py'
+2. Run "train.py"
+3. Run "predict.py"
 
 
 
