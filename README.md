@@ -18,9 +18,8 @@ Required package:
 
 ## STco pipeline
 1. Please run the script download.sh in the folder data;
-2. Run the command line git clone https:/github.com/almaan/her2st.git in the dir data;
-3. Run train.py
-4. Run prediction.py
+2. Run 'train.py'
+3. Run 'predict.py'
 
 
 
