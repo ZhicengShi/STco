@@ -29,7 +29,7 @@ class SKIN(torch.utils.data.Dataset):
                 names.append(i + '_ST_' + j)
         test_names = ['P2_ST_rep2']
 
-        gene_list = list(np.load('D:\dataset\Her2st\data/skin_hvg_cut_1000.npy', allow_pickle=True))
+        gene_list = list(np.load('.\dataset\Her2st\data/skin_hvg_cut_1000.npy', allow_pickle=True))
         self.gene_list = gene_list
         self.train = train
         self.sr = sr
@@ -131,7 +131,7 @@ class SKIN(torch.utils.data.Dataset):
         cnt = self.get_cnt(name)
         pos = self.get_pos(name)
         meta = cnt.join(pos.set_index('id'), how='inner')
-        # meta.to_csv(f"D:\dataset\CSCC_data\GSE144240_RAW/{name}_metainfo.csv")
+        # meta.to_csv(f".\dataset\CSCC_data\GSE144240_RAW/{name}_metainfo.csv")
         return meta
 
     def get_overlap(self, meta_dict, gene_list):
@@ -144,12 +144,12 @@ class SKIN(torch.utils.data.Dataset):
 class HERDataset(torch.utils.data.Dataset):
     def __init__(self, train=True, gene_list=None, ds=None, fold=0):
         super().__init__()
-        self.cnt_dir = 'D:\dataset\Her2st\data\ST-cnts'
-        self.img_dir = 'D:\dataset\Her2st\data\ST-imgs'
-        self.pos_dir = 'D:\dataset\Her2st\data\ST-spotfiles'
-        self.lbl_dir = 'D:\dataset\Her2st\data\ST-pat'
+        self.cnt_dir = '.\dataset\Her2st\data\ST-cnts'
+        self.img_dir = '.\dataset\Her2st\data\ST-imgs'
+        self.pos_dir = '.\dataset\Her2st\data\ST-spotfiles'
+        self.lbl_dir = '.\dataset\Her2st\data\ST-pat'
         self.r = 224 // 2
-        gene_list = list(np.load('D:\dataset\Her2st\data/her_hvg_cut_1000.npy', allow_pickle=True))
+        gene_list = list(np.load('.\dataset\Her2st\data/her_hvg_cut_1000.npy', allow_pickle=True))
         self.gene_list = gene_list
         names = os.listdir(self.cnt_dir)
         names.sort()  # ['A1.tsv.gz', 'A2.tsv.gz', ...]
