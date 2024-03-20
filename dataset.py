@@ -14,7 +14,6 @@ Image.MAX_IMAGE_PIXELS = None
 import torchvision.transforms.functional as TF
 import random
 class SKIN(torch.utils.data.Dataset):
-    """Some Information about ViT_SKIN"""
 
     def __init__(self, train=True, val=False, gene_list=None, ds=None, sr=False, fold=0):
         super(SKIN, self).__init__()
